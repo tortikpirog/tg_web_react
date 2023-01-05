@@ -1,7 +1,7 @@
 import './App.css';
 import {useEffect} from "react";
 import {useTelegram} from "./hooks/useTelegram";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Header.jsx";
 
 
 
@@ -10,8 +10,6 @@ function App() {
     useEffect( () => {
         tg.ready();
     })
-
-
 
   return (
     <div className="App">
